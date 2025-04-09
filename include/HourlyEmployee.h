@@ -14,8 +14,8 @@ public:
   double getHourlyWage () const;
   double getPay () const;
 
-  void write (std::ostream& rcOutStream) const;
-  void read (std::istream& rcInStream);
+  virtual void write (std::ostream& rcOutStream) const override;
+  virtual void read (std::istream& rcInStream) override;
 
   private:
   double mHoursWorked;

@@ -31,7 +31,7 @@ double SalariedEmployee::getPay () const {
 
 void SalariedEmployee::write (std::ostream& rcOutStream) const {
   Employee::write (rcOutStream);
-  rcOutStream << "Salary: " << mSalary;
+  rcOutStream << " Salary: " << mSalary;
 }
 
 void SalariedEmployee::read (std::istream& rcInStream) {

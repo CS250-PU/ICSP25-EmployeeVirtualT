@@ -12,8 +12,8 @@ public:
   SalariedEmployee (const SalariedEmployee& rcSalariedEmployee);
   double getSalary () const;
   double getPay () const;
-  void write (std::ostream& rcOutStream) const;
-  void read (std::istream& rcInStream);
+  virtual void write (std::ostream& rcOutStream) const override;
+  virtual void read (std::istream& rcInStream) override;
 
 
 private:

@@ -26,9 +26,9 @@ std::string Employee::getID () const {
 }
 
 void Employee::write (std::ostream& rcOutStream) const {
-
+  rcOutStream << "Name: " << mcName << " ID: " << mcID;
 }
 
 void Employee::read (std::istream& rcInStream) {
-
+  rcInStream >> mcName >> mcID;
 }

@@ -34,7 +34,7 @@ double HourlyEmployee::getPay () const {
 
 void HourlyEmployee::write (std::ostream& rcOutStream) const {
   Employee::write (rcOutStream);
-  rcOutStream << "Hours Worked: " << mHoursWorked
+  rcOutStream << " Hours Worked: " << mHoursWorked
     << " Hourly Wage: " << mHourlyWage;
 }
 

@@ -12,8 +12,8 @@ public:
   std::string getName () const;
   std::string getID () const;
 
-  void write (std::ostream&) const;
-  void read (std::istream&);
+  virtual void write (std::ostream&) const;
+  virtual void read (std::istream&);
 
 private:
   std::string mcName;
