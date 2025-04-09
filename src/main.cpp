@@ -8,6 +8,16 @@
 // Hours:       
 //******************************************************************************
 
+/*
+TODO #1: In main create a pointer to an Employee. Ask the user to enter an
+Employee and then type in Jones with an id of 1234. Then output the employee  
+object. Test your program and run valgrind to check for memory leaks.
+
+
+
+
+*/
+
 #include <iostream>
 #include "../include/SampleClass.h"
 

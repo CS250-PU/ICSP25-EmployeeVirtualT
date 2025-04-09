@@ -1,0 +1,6 @@
+S Black 32000.0
+H Ford 10.0 40.0
+H Goodman 15.0 45.0
+S Howell 44000.0
+S Powell 50000.0
+H Smith 22.5 40
